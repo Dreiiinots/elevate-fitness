@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ElevateFitness</string>
+    <string name="forgotpass">Forgot<u> password?</u></string>
+    <string name="Note">Please enter your email used for registration.</string>
+</resources>
