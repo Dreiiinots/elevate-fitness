@@ -54,7 +54,7 @@
             android:layout_gravity="center"
             android:background="@drawable/box"
             android:hint="Enter Your Username "
-            android:padding="10dp" />
+            android:padding="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -71,7 +71,7 @@
             android:layout_gravity="center"
             android:background="@drawable/box"
             android:hint="Enter Your Email"
-            android:padding="10dp" />
+            android:padding="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -88,7 +88,7 @@
             android:layout_gravity="center"
             android:background="@drawable/box"
             android:hint="Enter Your Phone Number"
-            android:padding="10dp" />
+            android:padding="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
             android:layout_height="wrap_content"
             android:hint="Enter Your Password"
             android:layout_gravity="center"
-            android:padding="10dp"
+            android:padding="15dp"
             android:background="@drawable/box"/>
 
         <Button
