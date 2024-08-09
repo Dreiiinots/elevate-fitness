@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".HomePage">
+    tools:context=".HomePage"
+    android:background="#03433F3F">
 
 
 
@@ -13,7 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:paddingHorizontal="20dp"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:background="#393737">
 
         <TextView
             android:layout_width="wrap_content"
@@ -21,6 +23,7 @@
             android:layout_weight="1"
             android:text="Discover"
             android:textSize="20sp"
+            android:textColor="@color/white"
             />
 
     <LinearLayout
@@ -30,9 +33,9 @@
         android:background="@drawable/notificationbg">
         <ImageView
             android:layout_width="25dp"
-            android:src="@drawable/notification"
-            android:background="#eeeeee"
-            android:layout_height="25dp"/>
+            android:src="@drawable/icons8_notification"
+            android:layout_height="25dp"
+            />
     </LinearLayout>
     </LinearLayout>
     <ScrollView
@@ -40,14 +43,205 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:orientation="vertical">
-            
-            <androidx.cardview.widget.CardView
-                android:layout_width=""
-                android:layout_height=""
-            
-            
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="9sp"
+                android:text="Home Workout"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="3dp"
+                android:orientation="vertical"
+            >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="375dp"
+                    android:layout_height="175dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="8dp"
+                    android:layout_margin="6dp">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/chestworkout"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chest Workout"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 workouts"
+                        android:textColor="@color/white"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="375dp"
+                    android:layout_height="175dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="8dp"
+                    android:layout_margin="6dp">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/backworkout"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Back Workout"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 workouts"
+                        android:textColor="@color/white"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="375dp"
+                    android:layout_height="175dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="8dp"
+                    android:layout_margin="6dp">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/legworkout"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Leg Workout"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 workouts"
+                        android:textColor="@color/white"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="375dp"
+                    android:layout_height="175dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="8dp"
+                    android:layout_margin="6dp">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/coreworkout"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Core Abdominals"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 workouts"
+                        android:textColor="@color/white"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="375dp"
+                    android:layout_height="175dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="8dp"
+                    android:layout_margin="6dp">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/cardioworkout"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cardio"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4 workouts"
+                        android:textColor="@color/white"
+                        android:textAllCaps="true"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"/>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+
         </LinearLayout>
 
     </ScrollView>
